@@ -40,11 +40,11 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/rGX.jpg")
 
 #text
 HELP_TXT = "<blockquote><b>Hi Dude!\n\nTo use this bot you just have to join both channels that's it..\nWatch Tutorial to open Link - <a href=https://t.me/+75lYowcxb8dhZDk0>Clickhere</a></b></blockquote>"
-ABOUT_TXT = "<blockquote><b><i>About Us..\n\n‣ Made for : <a href=https://tg://settings>ClickHere</a>\n‣ Owned by : @sinsfull_bot\n‣ Maintained by : @km_portal\n‣ Developed by : @xclusive_backup\n\n Adios !!</i></b></blockquote>"
+ABOUT_TXT = "<blockquote><b><i>About Us..\n\n‣ Made for : <a href=https://t.me/laurenbale>ClickHere</a>\n‣ Owned by : @sinsfull_bot\n‣ Maintained by : @km_portal\n‣ Developed by : @xclusive_backup\n\n Adios !!</i></b></blockquote>"
 SHORT_MSG = "<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>"
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....! WORKING FOR @KM_PORTAL\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/XCLUSIVE_BACKUP>XCLUSIVE</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....! WORKING FOR @KM_PORTAL\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/XCLUSIVE_BACKUP>XCLUSIVE NEWS</a></b>")
 try:
     ADMINS=[8002331168]
     for x in (os.environ.get("ADMINS", "8002331168").split()):
