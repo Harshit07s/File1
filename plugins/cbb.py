@@ -43,7 +43,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "premium":
         await query.message.edit_text(
-            text=f"Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\n<blockquote>Pricing Rates\n7 Days - INR 40\n15 Days - INR 69\n1 Month - INR 100\n3 Months - INR 250\n6 Months - INR 480\n12 Month - Contact <a href=https://t.me/shitnigga_bot>Owner</a></blockquote>\n\n<blockquote>Want To Buy?\nUsing UPI <code> narang07@fam </code>\nSend Screenshot to <a href=https://t.me/sinsfull_bot>Owner</a></blockquote>\n\nWe Have Limited Seats For Premium Users",
+            text=f"Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\n<blockquote>Pricing Rates\n7 Days - INR 40\n15 Days - INR 69\n1 Month - INR 100\n3 Months - INR 250\n6 Months - INR 480\n12 Month - Contact <a href=https://t.me/shitnigga_bot>Owner</a></blockquote>\n\n<blockquote>Want To Buy?\nUsing UPI <code> narang07@fam </code>\nQR - https://graph.org/PAYMENT-03-22-6\nSend Screenshot to <a href=https://t.me/sinsfull_bot>Owner</a></blockquote>\n\nWe Have Limited Seats For Premium Users",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
