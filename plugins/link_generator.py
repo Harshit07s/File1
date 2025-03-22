@@ -1,5 +1,6 @@
-#(©)Codexbotz
-#recoded by @Its_Tartaglia_Childe
+#@km_portal
+#@xclusive_backup
+#@sinsfull_bot
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
